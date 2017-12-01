@@ -1,0 +1,1 @@
+- Morphisms don't have to form a set, meaning it isn't necessary to have them be represented in a diagram.
