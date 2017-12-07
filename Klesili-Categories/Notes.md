@@ -1,0 +1,1 @@
+- Thinking about categories in programming allows you to abstract over computations simply by defining their rules of composition.
