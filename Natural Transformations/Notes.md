@@ -1,0 +1,7 @@
+- natural transformations operate between functions
+- natural transformations are a way of defining morphisms between functors
+- a natural transformation releis on morphisms present in the embedded category
+- natural transformations map objects in the image by relying on morphisms present between them.
+- natural transformations map morphisms [my understanding here needs some refinement]
+- functors correspond to type constructors that map types to other types. They must also map the object's morphisms (function to function), and therefore must implement fmap.
+- 
