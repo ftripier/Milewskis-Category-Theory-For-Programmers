@@ -29,6 +29,8 @@ const reader = f => ({
 are true for the tail part of the list you’re applying it to (in other
 words, use induction).
 
+implement fmap by applying function to every member of list in cons sequence
+
 fmap id Nil = Nil
 fmap id Cons a List a
 id List a = id (induction)
