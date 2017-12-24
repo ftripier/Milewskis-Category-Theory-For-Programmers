@@ -4,4 +4,4 @@
 - natural transformations map objects in the image by relying on morphisms present between them.
 - natural transformations map morphisms [my understanding here needs some refinement]
 - functors correspond to type constructors that map types to other types. They must also map the object's morphisms (function to function), and therefore must implement fmap.
-- 
+- paramtrically polymorphic functions between two functors are always natural transformations. In Haskell, this means any polymorphic functions between types is a natural transformation.
