@@ -21,3 +21,8 @@
   - product
 
 7. Is the initial object effectively the ahnnialator in algebra or does it not have enough properties?
+
+8. In this chapter we see the author execute a universal construction of the universal function object. How does he know to give it the structure it has as opposed to any other?
+
+9. Functions have three objects, and so aren't morphisms between two objects... Whaaaaaaaaat man?
+  - he's talking about function types not functions
