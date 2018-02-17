@@ -23,4 +23,16 @@ The pushout appears to be the intersection of two sets (again, as defined by the
 The initial object is the empty set, because it is the superset of no set, and the terminal object is the largest set, because it is the subset of no set.
 
 
+4. Can you guess what a coequalizer is?
+
+Without insight, the coequalizer is the dual of the equalizer.
+
+Tracing arrows, it looks like the quotient as determined by the function a and two supersets a, and b, is the smallest possible subset of a and b under which f and g are equal.
+
+I looked this up online and it turns out this can be formalzied as the quotient set under equivalence relation.
+
+5. Show that, in a category with a terminal object, a pullback towards the terminal object is a product.
+
+6. Similarly, show that a pushout from an initial object (if one exists) is the coproduct.
+
 
