@@ -14,3 +14,13 @@
 - an interesting example of using a limit is in the equalizer construction, a category theoretic examintation of point equality.
 - seeing categoric constructions is giving me a much better idea for the utility of category theory
 - thinking about it, set constructions are really the interesting part
+
+- In defining the limit, we had an intuitive notion that the factoring relationship between cones must contain a commuting triangle.
+  - To give this relationship more rigour, we can define the factoring relationship in terms of constraints imposed by naturality condition.
+  - So, we need to define this factoring as a natural transformation between two functors.
+  - The first functor is the mapping of cone apexes to the hom-set of that cone apex to the limit. This functor is contravariant.
+  - The second functor is also a mapping from cone to Set. It is also contravariant. It goes from c to Nat(∆c, D). It works by showing that components of the natural transformation reduce to
+  c -> Dcom where com is a component. If you precompose the facotring morphism with this functor, you define contramap.
+
+- A functor 𝐷 from 𝐈 to 𝐂 has a limit Lim𝐷 if and only if there is a natural isomorphism between the two functors I have just defined:
+  𝐂(𝑐, Lim𝐷) ≃ 𝑁𝑎𝑡(Δ𝑐, 𝐷)
