@@ -36,3 +36,5 @@ I looked this up online and it turns out this can be formalzied as the quotient 
 6. Similarly, show that a pushout from an initial object (if one exists) is the coproduct.
 
 
+
+

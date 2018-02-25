@@ -1,0 +1,1 @@
+1. What distinguishes a free monoid from a regular monoid? I was under the impression that "free monoid" referred to the consturction of any monoid from a set of elements.
