@@ -1,3 +1,8 @@
+1. if you preserve multiplication, you maintain the following relation
+  h (a * b) = h a * h b
+
+  if you didn't preserve unit, you'd have some multiplication with the unit in the original monoid h(a * e) = a that is mapped to
+  h (a * b) = c. Element c in the target monoid would have to be mapped back to a in order for an isomorphism to exist, but that means that b could only be the unit, otherwise c would have a non unit factor and would break invertability.
 2.
 a) The image of the empty list should just be the empty element for multiplication, so 1.
 b) the image of [1, 2, 3, 4] should be 24.

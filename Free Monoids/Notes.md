@@ -21,3 +21,7 @@ q :: x -> U n
 
 where the factoring morphism h is
 h :: m -> n
+
+with the corresponding image in Set through U:
+
+q = U h . p
