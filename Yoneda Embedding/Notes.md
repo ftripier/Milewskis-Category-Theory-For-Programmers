@@ -9,3 +9,4 @@
 - our functor is fully faithful
 
 - the functor that maps objects to hom-set functors, and the one whose natural transformations we defined via contravariant functor, describes the yoneda embedding.
+
