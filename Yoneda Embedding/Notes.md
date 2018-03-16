@@ -10,3 +10,9 @@
 
 - the functor that maps objects to hom-set functors, and the one whose natural transformations we defined via contravariant functor, describes the yoneda embedding.
 
+- Crucially, its important to realize that in the functor category, natural transformations are morphisms, and the hom-set functor itself can be embedded in Set via the hom-set functor by taking its natural transformations as the hom-set.
+
+- Yoneda embedding is important because it maps a categories functors to set into a category. You can study natural transformations directly as morphisms. That means you could easily discern which functors are representable by studying morphisms.
+
+- Generally, it seems important in category theory to study categories in various levels of "scoping". Set is the most zoomed in level of categoric examination because it allows you to study functions pointwise. The functor category is very zoomed out, but is more appropriate to examine how the categories functor's behave (like if they're representable).
+
